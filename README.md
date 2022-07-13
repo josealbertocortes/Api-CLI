@@ -7,7 +7,7 @@ En linea de comandos ejecutar lo sigueinte
 `source env/bin/activate`
 ###Paso 3 Instalar dependencias 
 Una vez que el ambiente este activado ejecutar el siguiente comando 
-`pip install  requirenments.txt`
+`pip install -r  requirements.txt`
 ###Paso 4 Activar el api 
 Con el siguente comando activamos el api
 `uvicorn app:app --reload`
